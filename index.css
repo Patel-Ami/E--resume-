@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: default;
+    align-content: center;
+}
+
+h2{
+    margin-bottom: 10px; 
+}
+
+h3{
+    padding: 0 0 10px 20px;
+
+}
+
+.header {
+    width: 95%;
+    color: beige;
+    margin: 30px;
+    box-shadow: 5px 5px rgb(37, 37, 44);
+    position: relative;
+    display: flex;
+}
+.header-left{
+    box-sizing: border-box;
+    float: left;
+    width: 40%;
+    padding: 30px 15px;
+    background: #fff;
+    color: #9099a0;
+    padding-left: 20px;
+    
+}
+
+.profile {
+    
+    padding: 30px 15px 70px 15px;
+    margin: -30px -15px 30px -15px;
+    position: relative;
+    height: 200px;
+    z-index: 1;
+    
+}
+.info{
+    text-align: center;
+    font-size: x-large;
+}
+.name{
+    color: #3d3e42;
+    font-weight: bold;
+
+}
+.position{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;  
+}
+
+
+
+.header .header-left .contact div {
+    line-height: 24px;
+    padding-left: 20px;  
+        
+    
+  }
+  .header .header-left .contact div a:hover {
+    color: #9099a0;
+  }
+  .header .header-left .contact div a:hover span::after {
+    width: 100%;
+  }
+  .header .header-left .contact div:hover i {
+    color: #9099a0;
+  }
+  .header .header-left .contact div i {
+    color: #737c83;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+    transition-duration: 0.3s;
+  }
+  .header .header-left .contact div span {
+    position: relative;
+  }
+  .header .header-left .contact div span::after {
+    content: "";
+    position: absolute;
+    background: #9099a0;
+    height : 1px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.3s;
+  }
+
+  .follow a{
+    padding: 30px 0 15px 20px;    
+    display: inline-block;
+    vertical-align: text-bottom;
+    
+  }
+
+  .header .header-left .contact .follow a:hover i {
+    background: #9cf3c8;
+    border-radius: 5px;
+    transform: rotate(45deg) scale(0.8);
+  }
+  .header .header-left .contact .follow a:hover i::before {
+    transform: rotate(-45deg) scale(1.5);
+  }
+  .header .header-left .contact .follow i {
+    display: inline-block;
+    font-size: 30px;
+    background: #66cc99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    margin: 0 10px 10px 10px;
+    transition-duration: 0.3s;
+  }
+  .header .header-left .contact .follow i::before {
+    transition-duration: 0.3s;
+  }
+  .header .header-left .contact .follow i.fa::before {
+    display: block;
+  }
+
+.skills p {
+    font-size: 20px;
+    padding: 3px 0 1% 30px;
+}
+
+.skills{
+    margin: 30px 0 15px 0;
+}
+
+.header .header-left .items div span {
+    display: block;
+  } 
+
+.header .header-left .hobbies {
+    margin: 15px 0 0;
+    padding: 15px;
+  }
+  .header .header-left .items {
+    box-sizing: border-box;
+    padding: 0 0 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .header-left .items div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .header .header-left .items div:hover i {
+    transform: scale(1.2);
+  }
+  .header .header-left .items div:hover span {
+    color: #9cf3c8;
+    transition-duration: 0.3s;
+  }
+  .header .header-left .items div i {
+    font-size: 45px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #9099a0;
+    transition-duration: 0.3s;
+  }
+
+  
+.certi {
+    margin: 30px 0 15px 0;
+}
+.certi ul li  {
+    font-size: 20px;
+    padding: 3px 0 1% 40px;
+}
+  
+  
+  
+
+  
+.header-right {
+    align-content: center;
+    text-align: center;
+    width: 60%;
+    background-color: #3d3e42;
+    padding: 0 20px 0 20px;
+
+}
+.about {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 0 40px 0 40px;
+}
+
+
+.edu{
+    align-content: center;
+    margin: 20px 60px 25px 60px ;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.table, th, td {
+    
+    border:1px solid rgb(82, 78, 78);
+    text-align: center;
+    font-size: 15px;
+    
+    
+  }
+
+  .experiences {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+
+  }
+.experiences h2{
+
+margin-top: 150px;
+}
+.exp-item{
+    float: right;
+}
+
+
+  .header .header-right .experiences small{
+    
+    display: flex;
+    opacity: 0.7;
+  }
+  .header .header-right .experiences ul li{
+    text-align: justify;
+    margin-left: 100px;
+    padding: 0.5%;
+    padding: 0 0 12px 25px;
+
+  }
+
+  .header .header-right .experiences ul li:hover span, ul li:hover span{
+    color: #66cc99;
+  }
+ 
+
+
+  .interest{
+    display: flex;
+    align-items: left;
+    align-content: left;
+    margin: 20px 60px 0 60px;
+  }
+  .interest h2{
+
+    margin-top: 30px;
+    }
+
+
+  .header .header-right .interest ul li {
+    text-align: justify;
+    margin-left: 100px;
+    padding: 0.5%;
+    padding: 0 0 12px 65px;
+
+  }
+
+  .project{
+    display: flex;
+    align-items: left;
+    align-content: left;
+    margin: 20px 60px 0 60px;
+  }
+  .project h2{
+
+    margin-top: 100px;
+    }
+
+  .header .header-right .project small{
+    
+    display: flex;
+    opacity: 0.7;
+  }
+
+  .header .header-right .project ul li {
+    text-align: justify;
+    margin-left: 100px;
+    padding: 0.5%;
+    padding: 0 0 12px 25px;
+
+  }
+   
